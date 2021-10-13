@@ -24,14 +24,14 @@ browse-buttons: true # true/false, adds previous/next arrows to item pages
 # SUBJECTS PAGE
 #
 subjects-fields: subject; # set the field to be featured in the cloud (if left blank, none will be generated)
-subjects-min: 2 # min size for subject cloud, too many terms = slow load time!
+subjects-min: 1 # min size for subject cloud, too many terms = slow load time!
 subjects-stopwords: n/a # boxers;boxing;boxer # set of subjects separated by ;, e.g. boxers;boxing
 
 ##########
 # LOCATIONS PAGE
 #
 locations-fields: location # set the field to be featured in the cloud
-locations-min: 5 # min size for subject cloud, too many terms = slow load time!
+locations-min: 3 # min size for subject cloud, too many terms = slow load time!
 locations-stopwords: n/a # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
 ##########
@@ -60,7 +60,7 @@ year-nav-increment: 5 # set increments when auto gen nav years
 # comma delimited list, reference url is automatic
 metadata-export-fields: "narrator,interviewer,interview-date,interview-location,time-period-covered,length-of-interview,subject,subject-1,subject-2,subject-3,type,format,format-free,transcript-available-,biography-available-,release-form-available-,catalog-number-if-applicable-,institution,address,phone,email,website,notes"
 # generate a facets list for given fields, comma delimited
-metadata-facets-fields: "subject,creator,format"
+metadata-facets-fields: "subject,length-of-interview,format-free,institution"
 
 ##########
 # ADVANCED OPTIONS
