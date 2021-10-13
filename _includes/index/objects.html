@@ -15,8 +15,10 @@
             <a class="text-dark" href="{{ 'audio' | prepend: '/browse.html#' | relative_url }}">Audio <span class="far fa-file-audio"></span></a><br>
             {% when 'video' %}
             <a class="text-dark" href="{{ 'video' | prepend: '/browse.html#' | relative_url }}">Videos <span class="far fa-file-video"></span></a><br>
+            {% when 'record' %}
+            <a class="text-dark" href="{{ 'record' | prepend: '/browse.html#' | relative_url }}">Record <span class="far fa-file"></span></a><br>
             {% else %}
-            <a class="text-dark" href="{{ 'pdf' | prepend: '/browse.html#' | relative_url }}">PDFs <span class="far fa-file"></span></a><br>
+            <a class="text-dark" href="{{ 'pdf' | prepend: '/browse.html#' | relative_url }}">Text <span class="far fa-file-alt"></span></a><br>
             {% endcase %}
             {% endif %}
             {%- endfor -%}

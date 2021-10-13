@@ -1,15 +1,21 @@
 field,display_name,browse_link,external_link
 title,Title,
-creator,Creator,
+narrator,Narrator,true
+interviewer,Interviewer,
 date,Date Created,
-description,Description,
+time-period-covered,Time Period covered
+length-of-interview,Duration
+notes,Notes
 subject,Subjects,true
 location,Location
-latitude,Latitude
-longitude,Longitude
-source,Source
-identifier,Source Identifier,,
+format-free,Original Format,true
 type,Type,
 format,Format,
-rights,Rights,
-rightsstatement,Rights Statement,,true
+institution,Institution
+website,Institution Website,,true
+phone,Phone
+email,Email
+transcript-available,Transcript Available? 
+biography-available,Biography Available?
+release-form-available,Release Form Available?
+catalog-number-if-applicable,Catalog #
